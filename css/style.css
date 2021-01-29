@@ -1,0 +1,159 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Little";
+    src: url(font/Little.ttf);
+}
+
+body {
+    background-image: url("../img/fond1.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+}
+
+.form-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #ffffff;
+}
+
+.accueil {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-shadow: #303030 1px 0 5px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sp1, h6, h5 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: #303030 1px 0 5px;
+}
+
+.form-area p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-area input, select, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+select {
+    border: 1px solid #000000;
+}
+
+.form-area input[type=text],
+.form-area input[type=email], textarea {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    display: 16px;
+}
+
+.spbutton {
+    width: 100%;
+    border-radius: 20px !important;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.bghf {
+    background-color: rgb(0, 16, 31);
+}
+
+main {
+    min-height: 400px;
+}
+
+.blur {
+	-webkit-filter: blur(20px);
+	filter: blur(20px);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.blur:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.ent {
+    background-color: rgb(17, 51, 78);
+}
+
+.tr {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.font3 {
+    font-family: "Little";
+    color: #ffffff;
+    text-shadow: #272727 1px 0 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bc {
+    border: #000000 1px solid;
+}
+
+.col1 {
+    color: rgb(123, 19, 221);
+}
+
+.style_im {
+    border: 2px solid rgb(68, 68, 68);
+    box-shadow: #303030 1px 0 5px;
+}
+
+a {
+    color: #00bdd6;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
